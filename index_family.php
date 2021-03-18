@@ -1,10 +1,10 @@
 <?php
 
-class Family //общие признаки
+abstract class Family //общие признаки
 {
-   private $peopleCount = 3;
-   private $surname = 'Semko';
-   private $adress = 'Odincovo';
+   public $peopleCount = 3;
+   public $surname = 'Semko';
+   public $adress = 'Odincovo';
 
    public function sleep()
    {
@@ -47,6 +47,6 @@ class Child extends Father
 
    public function playCars()
    {
-
+     //
    }
 }
